@@ -48,7 +48,7 @@ copyright: "ﻷن الهدف من هذا التصميم هو نشر الأفكا
 description: >- # this means to ignore newlines until "baseurl:"
   A try to provide a good and simple theme for Arabic Content
 
-baseurl: "Commit-to-build" # the subpath of your site, e.g. /blog
+baseurl: "/Commit-to-build" # the subpath of your site, e.g. /blog
 url: "https://mohamedalirashad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "/Commit-to-build/assets/images/moon.svg" # the favicon for your site
 
