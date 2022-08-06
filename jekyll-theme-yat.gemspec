@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "The-Simple-Arabic-Theme"
+  spec.name          = "Commit-to-build"
   spec.version       = "1.8.0"
   spec.authors       = ["MohamedAliRashad"]
   spec.email         = ["m.rashadnow@gmail.com"]
 
   spec.summary       = "The simplest theme for Arabic content with features to come"
-  spec.homepage      = "https://github.com/MohamedAliRashad/The-Simple-Arabic-Theme"
+  spec.homepage      = "https://github.com/MohamedAliRashad/Commit-to-build"
 
   spec.metadata["plugin_type"] = "theme"
 
