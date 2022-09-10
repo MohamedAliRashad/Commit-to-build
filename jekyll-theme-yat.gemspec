@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "Commit-to-build"
-  spec.version       = "1.8.0"
+  spec.version       = "1.1.2"
   spec.authors       = ["MohamedAliRashad"]
   spec.email         = ["m.rashadnow@gmail.com"]
 
