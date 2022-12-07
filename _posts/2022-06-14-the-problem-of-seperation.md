@@ -5,14 +5,13 @@ subheading: مواقع التواصل الأجتماعى كمثال
 author: محمد رشاد 
 categories: ['أفكار بسيطة']
 banner:
-  image: "assets/images/banners/3.webp"
+  image: "assets/images/banners/4.webp"
   opacity: 0.618
   background: "#000"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-family:'Droid Arabic Kufi'; font-size: 40px; font-weight: bold;"
   subheading_style: "font-family:'Droid Arabic Kufi'; font-size: 20px; font-weight: bold; color: gold"
-# sidebar: []
 ---
 
 ## 🌘 رصدى المتواضع لواقع مجتمعاتنا
