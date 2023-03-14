@@ -10,8 +10,8 @@ banner:
   background: "#000"
   height: "100vh"
   min_height: "38vh"
-  heading_style: "font-family:'Droid Arabic Kufi'; font-size: 40px; font-weight: bold;"
-  subheading_style: "font-family:'Droid Arabic Kufi'; font-size: 20px; font-weight: bold; color: gold" 
+  heading_style: "font-family:'Noto Kufi Arabic'; font-size: 40px; font-weight: bold;"
+  subheading_style: "font-family:'Noto Kufi Arabic'; font-size: 20px; font-weight: bold; color: gold" 
 ---
 
 <img src="https://i.ibb.co/5BNhYq6/Screenshot-from-2022-10-02-07-28-53.png" width=500px>

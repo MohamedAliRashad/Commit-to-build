@@ -5,7 +5,7 @@
   <p class="post-meta">
     {% assign archives_url = '/archives.html' | relative_url %}
     <a href="{{ archives_url }}" style="text-decoration: none"><i class="fa-solid fa-calendar-days" style="color: rgb(0, 255, 0);"></i></a>
-    <time id="date-published" class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="font-family:'Droid Arabic Kufi'; font-size:16px ;font-weight: bold;">
+    <time id="date-published" class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="font-family:'Noto Kufi Arabic'; font-size:16px ;font-weight: bold;">
       {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
       {{ page.date | date: date_format }}
     </time>

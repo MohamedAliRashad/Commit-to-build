@@ -36,7 +36,7 @@ sidebar:
     <br>
     {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
     {%- if result.size == 0 -%}
-    <div class="post-related" style="font-family:'Droid Arabic Kufi';">
+    <div class="post-related" style="font-family:'Noto Kufi Arabic';">
       <div>محتويات قد تهمك</div>
       <ul style="margin-right:50px;">
         {% assign posts = site[page.collection] | sample:4 %}

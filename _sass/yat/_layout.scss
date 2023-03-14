@@ -208,7 +208,7 @@ html {
   text-align: right;
   transition: background-color 0.2s;
   direction: rtl;
-  font-family: "Droid Arabic Kufi";
+  font-family: "Noto Kufi Arabic";
 
   .site-footer-inner {
     transition: border-top 0.2s;
@@ -302,7 +302,7 @@ html {
  * Pagination page
  */
 .pagination {
-  font-family: "Droid Arabic Kufi";
+  font-family: "Noto Kufi Arabic";
 
   .post-list {
     margin-left: 0;
@@ -335,7 +335,7 @@ html {
         background-color: $brand-color;
         color: #fff;
         font-size: 12px;
-        font-family: 'Droid Arabic Kufi', serif;
+        font-family: 'Noto Kufi Arabic', serif;
         font-weight: 600;
         border-radius: 2px;
       }
@@ -448,13 +448,13 @@ html {
     overflow-wrap: normal;
     word-wrap: normal;
     word-break: normal;
-    font-family: 'Droid Arabic Kufi';
+    font-family: 'Noto Kufi Arabic';
     font-size: 15.5px;
     font-weight: 500;
 
     h2 {
       @include relative-font-size(2);
-      font-family: "Droid Arabic Naskh";
+      font-family: "Noto Naskh Arabic";
 
       @include media-query($on-laptop) {
         @include relative-font-size(1.75);
@@ -551,7 +551,7 @@ html {
           background-color: $brand-color;
           color: #fff;
           font-size: 12px;
-          font-family: 'Droid Arabic Kufi', serif;
+          font-family: 'Noto Kufi Arabic', serif;
           font-weight: 600;
           border-radius: 2px;
         }
@@ -644,7 +644,7 @@ html {
   height: $banner-height;
   background-color: $banner-background;
   transition: height 0.2s;
-  font-family: "Droid Arabic Kufi";
+  font-family: "Noto Kufi Arabic";
   font-size: 16px;
   font-weight: bold;
 
@@ -837,7 +837,7 @@ html {
       background-color: $brand-color;
       color: #fff;
       font-size: 12px;
-      font-family: 'Droid Arabic Kufi', serif;
+      font-family: 'Noto Kufi Arabic', serif;
       font-weight: 600;
       border-radius: 2px;
     }
