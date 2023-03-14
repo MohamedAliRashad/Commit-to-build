@@ -76,38 +76,16 @@ locale: "ar_EG"
 # Splitting the markdown editor in half for editing and previewing or not
 split_editor: true
 
-# Fonts that are supported (can be extended by copying the font names wanted from there https://fonts.google.com/?subset=arabic)
-fonts:
-  - Tajawal
-  - Cairo
-  - Noto Kufi Arabic
-  - Almarai
-  - El Messiri
-  - Amiri
-  - Reem Kufi
-  - Rakkas
-
-# You can choose a theme color
-# Default theme colors as below:
-# coolblack: #090a0b
-# spacegrey: #353535
-# snowwhite: #ffffff
-#
-# theme_color: snowwhite
-#
-# Custom color as below:
-# theme_color: "#882250"
-
-# You can choose a brand color
-# Default brand colors as below:
-# orangered: #ff5100
-# greatgold: #f2cb05
-# greenblue: #389092
-
-# brand_color: orangered
-#
-# Custom color as below:
-# brand_color: "#1a8e42"
+# # Arabic Fonts that are available in the theme
+# Fonts:
+#   - Amiri
+#   - Amiri Quran
+#   - Cairo
+#   - Noto Kufi Arabic
+#   - Noto Naskh Arabic
+#   - Rakkas
+#   - Reem Kufi Fun
+#   - Reem Kufi Ink
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -162,8 +140,8 @@ defaults:
 #   background: "#000"
 #   height: "100vh"
 #   min_height: "38vh"
-#   heading_style: "font-family:'Droid Arabic Kufi'; font-size: 40px; font-weight: bold;"
-#   subheading_style: "font-family:'Droid Arabic Kufi'; font-size: 20px; font-weight: bold; color: gold"
+#   heading_style: "font-family:'Noto Kufi Arabic'; font-size: 40px; font-weight: bold;"
+#   subheading_style: "font-family:'Noto Kufi Arabic'; font-size: 20px; font-weight: bold; color: gold"
 
 # Excerpt size setting
 # excerpt_size: 350
