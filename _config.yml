@@ -79,12 +79,10 @@ split_editor: true
 # # Arabic Fonts that are available in the theme
 # Fonts:
 #   - Amiri
-#   - Amiri Quran
 #   - Cairo
 #   - Noto Kufi Arabic
 #   - Noto Naskh Arabic
 #   - Rakkas
-#   - Reem Kufi Fun
 #   - Reem Kufi Ink
 
 # Night/Dark mode
