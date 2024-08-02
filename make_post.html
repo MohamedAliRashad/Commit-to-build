@@ -4,8 +4,17 @@ title: اصنع محتوى
 ---
 
 <div style="font-family:'Noto Kufi Arabic';">
+    
+    <div id="editor-buttons" style="margin-bottom: 10px;">
+        <button id="write-btn" class="btn active">Write</button>
+        <button id="preview-btn" class="btn">Preview</button>
+    </div>
 
-    <textarea id="post-maker" placeholder="اصنع محتواك"></textarea>
+    <div id="editor-container">
+        <textarea id="post-maker" placeholder="اصنع محتواك"></textarea>
+    </div>
+    <div id="preview-container" style="display: none;"></div>
+
     <br>
     <form id="post-details">
         <label for="title-input" class="post">عنوان:</label>
@@ -28,8 +37,38 @@ title: اصنع محتوى
         </div>
     </form>
 
-    <script>
-        const editor = new EasyMDE({ element: document.getElementById('post-maker'), direction: 'rtl', previewImagesInEditor: true, sideBySideFullscreen: false, status: false, toolbar: false, spellChecker: false });
+<script>        
+        const editor = new EasyMDE({
+            element: document.getElementById('post-maker'),
+            direction: 'rtl',
+            previewImagesInEditor: true,
+            autofocus: true,
+            indentWithTabs: true,
+            spellChecker: false,
+            sideBySideFullscreen: false,
+            status: false,
+            toolbar: false,
+        });
+
+        const writeBtn = document.getElementById('write-btn');
+        const previewBtn = document.getElementById('preview-btn');
+        const editorContainer = document.getElementById('editor-container');
+        const previewContainer = document.getElementById('preview-container');
+
+        writeBtn.addEventListener('click', () => {
+            writeBtn.classList.add('active');
+            previewBtn.classList.remove('active');
+            editorContainer.style.display = 'block';
+            previewContainer.style.display = 'none';
+        });
+
+        previewBtn.addEventListener('click', () => {
+            previewBtn.classList.add('active');
+            writeBtn.classList.remove('active');
+            editorContainer.style.display = 'none';
+            previewContainer.style.display = 'block';
+            previewContainer.innerHTML = editor.markdown(editor.value());
+        });
 
         function download(filename, text) {
             var element = document.createElement('a');
@@ -107,10 +146,6 @@ title: اصنع محتوى
         }
     </script>
 
-    {% if site.split_editor == true %}
-    <script>EasyMDE.toggleSideBySide(editor);</script>
-    {% endif %}
-
     {% if site.editor_cache == true %}
     <script>
         var data;
@@ -145,4 +180,22 @@ title: اصنع محتوى
 
     </script>
     {% endif %}
+    
+    <style>
+        .btn {
+            padding: 5px 10px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .btn.active {
+            background-color: #007bff;
+            color: white;
+        }
+        #preview-container {
+            border: 1px solid #ddd;
+            padding: 10px;
+            min-height: 300px;
+        }
+    </style>
+    
 </div>
