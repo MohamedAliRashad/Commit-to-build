@@ -4,6 +4,7 @@ title: الرسالة التى كادت ان تُبكينى
 subheading: من الماضى الى الحاضر 
 author: محمد رشاد 
 categories: ['تجارب شخصية'] 
+published: false
 banner:
   image: "assets/images/banners/5.webp"
   opacity: 0.618
